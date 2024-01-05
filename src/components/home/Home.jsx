@@ -14,22 +14,22 @@ const Home = () => {
         <div className="home__container container">
           <p className="home__subtitle text-cs">Hello World, <span>My Name Is</span></p>
           <h1 className="home__title text-cs"> <span>JAYNE</span> VERNICE</h1>
-          <p className="home__job"><span className="text-cs">I Am A</span> <b> Developer</b> </p>
+          <p className="home__job"><span className="text-cs">I Am A</span> <b> Software Developer</b> </p>
 
           <div className="home__img-wrapper">
             <div className="home__banner">
               <img src={profileImg} alt="" className='home__profile'/>
             </div>
 
-            <p className="home__data home__data-one">
+            {/* <p className="home__data home__data-one">
               <span className="text-lg">3 <b>+</b></span>
               <span className="text-sm text-cs"> Years of <span>Experience</span> </span>
-            </p>
+            </p> */}
 
-            <p className="home__data home__data-two">
+            {/* <p className="home__data home__data-two">
               <span className="text-lg">15</span>
               <span className="text-sm text-cs"> Completed <span>Projects</span> </span>
-            </p>
+            </p> */}
 
             <img src={shapeOne} alt="" className="shape shape__1 spin" />
             <img src={shapeTwo} alt="" className="shape shape__2 spin" />
@@ -37,16 +37,16 @@ const Home = () => {
 
           </div>
 
-          <p className="home__text">A 21 year old developer based in the Philippines. My mission is to blend aesthetics and functionality seamlessy in every project. Explore my portfolio to see how I've helped businesses elevate their online presence. </p>
+          <p className="home__text">A 21 year old aspiring developer based in the Philippines. My mission is to blend aesthetics and functionality seamlessy in every project. Explore my portfolio to see how I can help businesses elevate their online presence. </p>
           
           <div className="home__socials">
-            <a href="https://web.facebook.com/profile.php?id=61550783247991" className="home__social-link"><FaFacebook/></a>
-            <a href="https://twitter.com/VICESANDVIRTVES" className="home__social-link"><FaTwitter/></a> 
-            <a href="" className="home__social-link"><FaInstagram/></a> 
-            <a href="https://youtube.com/@vicesxvirtues" className="home__social-link"><FaYoutube/></a>
-            <a href="https://www.twitch.tv/cosmicrevelry/" className="home__social-link"><FaTwitch/></a>
-            <a href="" className="home__social-link"><FaLinkedin/></a>
             <a href="https://github.com/cosmicrevelry" className="home__social-link"><FaGithub/></a>
+            <a href="https://web.facebook.com/jaynevernice" className="home__social-link"><FaFacebook/></a>
+            <a href="https://www.twitch.tv/cosmicrevelry/" className="home__social-link"><FaTwitch/></a>
+            {/* <a href="https://twitter.com/VICESANDVIRTVES" className="home__social-link"><FaTwitter/></a>  */}
+            {/* <a href="" className="home__social-link"><FaInstagram/></a>  */}
+            {/* <a href="https://youtube.com/@vicesxvirtues" className="home__social-link"><FaYoutube/></a> */}
+            {/* <a href="" className="home__social-link"><FaLinkedin/></a> */}
           </div>
 
           <div className="home__btns">
@@ -62,7 +62,7 @@ const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Web Developer</span>
+        <span className="bg__title">Software Developer</span>
       </div>
 
     </section>

@@ -100,15 +100,15 @@ export const skills = [
   {
     id: 2,
     name: 'JavaScript',
-    percentage: 75,
+    percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
   {
     id: 3,
-    name: 'WordPress',
-    percentage: 90,
+    name: 'Java',
+    percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
@@ -116,7 +116,7 @@ export const skills = [
   {
     id: 4,
     name: 'Python',
-    percentage: 75,
+    percentage: 90,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
@@ -124,14 +124,14 @@ export const skills = [
   {
     id: 5,
     name: 'React',
-    percentage: 70,
+    percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
   {
     id: 6,
-    name: 'Adobe XD',
+    name: 'C++',
     percentage: 80,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -196,7 +196,7 @@ export const cv = [
     subtitle: 'Preparatory - Grade 10',
     date: '2007 - 2018',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'A journey from preparatory through Grade 10 at San Sebastian School, marked by growth, learning, and memorable experiences.',
     category: 'education',
   },
 
@@ -206,7 +206,7 @@ export const cv = [
     subtitle: 'Senior High School',
     date: '2018 - 2020',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Embarking on the Senior High School journey at PHINMA Araullo University, a chapter filled with academic exploration and personal growth. Two years marked by discovery, challenges, and forging pathways toward future endeavors.',
     category: 'education',
   },
 
@@ -214,41 +214,41 @@ export const cv = [
     id: 3,
     title: 'Central Luzon State University',
     subtitle: 'College',
-    date: '2020 - 2024',
+    date: '2020 - Present',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Currently pursuing higher education at Central Luzon State University, where knowledge meets opportunity. Engaging in collegiate studies, fostering skills, and crafting a foundation for a promising future.',
     category: 'education',
   },
 
   {
     id: 4,
-    title: 'Junior Web Developer',
-    subtitle: 'Accenture',
-    date: '2024 - 2026',
+    title: 'Data Encoding',
+    subtitle: 'CLSU - Office of Admissions',
+    date: 'August 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Contributed to the Office of Admissions at Central Luzon State University by managing student subject enrollment, performing precise data entry, and facilitating seamless updates. Tasked with efficiently adding, removing, and enrolling subjects for students, ensuring accuracy and completeness in academic records.',
     category: 'experience',
   },
 
-  {
-    id: 5,
-    title: 'Full Stack Developer',
-    subtitle: 'Global Brainforce Inc.',
-    date: '2026 - 2030',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    category: 'experience',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Full Stack Developer',
+  //   subtitle: 'Global Brainforce Inc.',
+  //   date: '2026 - 2030',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  //   category: 'experience',
+  // },
 
-  {
-    id: 6,
-    title: 'Senior Full Stack Developer',
-    subtitle: 'ETICA Group Pty ltd.',
-    date: '2030 - PRESENT',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    category: 'experience',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Senior Full Stack Developer',
+  //   subtitle: 'ETICA Group Pty ltd.',
+  //   date: '2030 - PRESENT',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  //   category: 'experience',
+  // },
 ];
 
 export const testimonials = [

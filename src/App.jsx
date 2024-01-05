@@ -23,12 +23,12 @@ function App() {
       <Header />
       <Home />
       <Resume />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Portfolio />
-      <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
       <Footer />
       
