@@ -40,7 +40,7 @@ const Home = () => {
           <p className="home__text">A 21 year old aspiring developer based in the Philippines. My mission is to blend aesthetics and functionality seamlessy in every project. Explore my portfolio to see how I can help businesses elevate their online presence. </p>
           
           <div className="home__socials">
-            <a href="https://github.com/cosmicrevelry" className="home__social-link"><FaGithub/></a>
+            <a href="https://github.com/jaynevernice" className="home__social-link"><FaGithub/></a>
             <a href="https://web.facebook.com/jaynevernice" className="home__social-link"><FaFacebook/></a>
             <a href="https://www.twitch.tv/cosmicrevelry/" className="home__social-link"><FaTwitch/></a>
             {/* <a href="https://twitter.com/VICESANDVIRTVES" className="home__social-link"><FaTwitter/></a>  */}

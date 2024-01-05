@@ -1,9 +1,9 @@
-import Project1 from './assets/project1.jpeg';
+import Project1 from './assets/project1.gif';
 import Project2 from './assets/project2.gif';
 import Project3 from './assets/project3.gif';
-import Project4 from './assets/project4.jpeg';
+import Project4 from './assets/project4.gif';
 import Project5 from './assets/project5.gif';
-import Project6 from './assets/project6.jpg';
+import Project6 from './assets/project6.png';
 
 import Testimonial1 from './assets/testimonial1.gif';
 import Testimonial2 from './assets/testimonial2.gif';
@@ -142,50 +142,51 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
+    category: 'Website',
+    title: 'Rotten Popcorn',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'A movie review platform enabling movie discovery, ratings, and user reviews.',
   },
   {
     id: 2,
     img: Project2,
-    category: 'UI UX Design',
+    // category: 'UI UX Design',
+    category: 'Design',
     title: 'WordPress Portfolio',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Designed a portfolio website utilizing WordPress.',
   },
   {
     id: 3,
     img: Project3,
-    category: 'Development',
-    title: 'Vaccination System',
+    category: 'Website',
+    title: 'Oceans of Knowledge',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'A vaccination management system for Oceans of Knowledge High School that streamlines vaccination records',
   },
   {
     id: 4,
     img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
+    category: 'Application',
+    title: 'Book Borrowing Tracker',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Developed a Java-based book borrowing tracker system, facilitating efficient management of book lending and returns.',
   },
   {
     id: 5,
     img: Project5,
-    category: 'Development',
-    title: 'Travel App',
+    category: 'Website',
+    title: 'Travel Management',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Lakbay Nueva Ecija is a travel management website I developed, encourages local tourism by offering users a platform to discover, and book visits to popular destinations.',
   },
   {
     id: 6,
     img: Project6,
-    category: 'Branding',
-    title: 'Kana',
+    category: 'Discord Bot',
+    title: 'Game of Shots',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'A discord bot that combines all adult party games into a single application for free developed in Replit.com',
   },
 ];
 

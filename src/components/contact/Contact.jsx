@@ -74,13 +74,13 @@ class Contact extends Component {
                 <div className="contact__card">
                     <span className="contact__card-icon"><FaRegEnvelope /></span>
                     <h3 className="contact__card-title">Email</h3>
-                    <p className="contact__card-data">jaynevernice@gmail.com</p>
+                    <p className="contact__card-data">jaynevernice.professional@gmail.com</p>
                 </div>
 
                 <div className="contact__card">
                     <span className="contact__card-icon"><FaRegAddressBook /></span>
                     <h3 className="contact__card-title">Phone</h3>
-                    <p className="contact__card-data">+63 947 - 713 - 8922</p>
+                    <p className="contact__card-data">+63 962 - 825 - 3113</p>
                 </div>
             </div>
 
