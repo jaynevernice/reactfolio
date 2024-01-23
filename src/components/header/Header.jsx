@@ -78,13 +78,13 @@ const Header = () => {
                         </ul>
 
                         <div className="header__socials">
-                        <a href="https://web.facebook.com/profile.php?id=61550783247991" className="header__social-link"><FaFacebook/></a>
-                        <a href="https://twitter.com/VICESANDVIRTVES" className="header__social-link"><FaTwitter/></a> 
+                        <a href="https://github.com/jaynevernice" className="header__social-link"><FaGithub/></a>
+                        <a href="https://web.facebook.com/jaynevernice" className="header__social-link"><FaFacebook/></a>
+                        <a href="https://www.twitch.tv/cosmicrevelry/" className="header__social-link"><FaTwitch/></a>
+                        {/* <a href="https://twitter.com/VICESANDVIRTVES" className="header__social-link"><FaTwitter/></a> 
                         <a href="" className="home__social-link"><FaInstagram/></a> 
                         <a href="https://youtube.com/@vicesxvirtues" className="header__social-link"><FaYoutube/></a>
-                        <a href="https://www.twitch.tv/cosmicrevelry/" className="header__social-link"><FaTwitch/></a>
-                        <a href="" className="home__social-link"><FaLinkedin/></a>
-                        <a href="https://github.com/cosmicrevelry" className="header__social-link"><FaGithub/></a>
+                        <a href="" className="home__social-link"><FaLinkedin/></a> */}
                         </div>
                     </div>
 

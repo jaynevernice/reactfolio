@@ -91,15 +91,15 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: 'PHP',
-    percentage: 85,
+    name: 'HTML',
+    percentage: 90,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
   {
     id: 2,
-    name: 'JavaScript',
+    name: 'CSS',
     percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -107,23 +107,23 @@ export const skills = [
 
   {
     id: 3,
-    name: 'Java',
-    percentage: 85,
+    name: 'JavaScript',
+    percentage: 80,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
   {
     id: 4,
-    name: 'Python',
-    percentage: 90,
+    name: 'PHP',
+    percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
   {
     id: 5,
-    name: 'React',
+    name: 'Laravel',
     percentage: 85,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -131,8 +131,56 @@ export const skills = [
 
   {
     id: 6,
+    name: 'React',
+    percentage: 90,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 7,
+    name: 'Java',
+    percentage: 82,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 8,
+    name: 'Python',
+    percentage: 88,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 9,
     name: 'C++',
     percentage: 80,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 10,
+    name: 'Bootstrap',
+    percentage: 90,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 11,
+    name: 'Tailwind',
+    percentage: 90,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    id: 12,
+    name: 'SQL',
+    percentage: 90,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
