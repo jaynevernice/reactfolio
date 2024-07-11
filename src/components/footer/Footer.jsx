@@ -17,7 +17,7 @@ const Footer = () => {
 
             </div>
 
-            <p className="footer__copyright text-cs">&copy; 2023 <span>JVCR</span>. All Rights Reserved</p>
+            <p className="footer__copyright text-cs">&copy; 2024 <span>JVCR</span>. All Rights Reserved</p>
 
             <p className="footer__copyright text-cs">Developed By <span>JayneVernice</span></p>
 

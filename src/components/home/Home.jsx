@@ -4,7 +4,8 @@ import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
 
 import { FaFacebook, FaTwitter, FaInstagram , FaYoutube, FaTwitch, FaLinkedin, FaGithub} from 'react-icons/fa';
-import CV from '../../assets/JVCRCV.pdf'
+// import CV from '../../assets/JVCRCV.pdf'
+import CV from '../../assets/Resume.pdf'
 import './home.css';
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
         <div className="home__container container">
           <p className="home__subtitle text-cs">Hello World, <span>My Name Is</span></p>
           <h1 className="home__title text-cs"> <span>JAYNE</span> VERNICE</h1>
-          <p className="home__job"><span className="text-cs">I Am A</span> <b> Software Developer</b> </p>
+          <p className="home__job"><span className="text-cs">I Am A</span> <b> Systems Developer</b> </p>
 
           <div className="home__img-wrapper">
             <div className="home__banner">
@@ -62,7 +63,7 @@ const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Software Developer</span>
+        <span className="bg__title">Systems Developer</span>
       </div>
 
     </section>

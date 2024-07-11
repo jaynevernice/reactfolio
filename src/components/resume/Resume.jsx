@@ -7,7 +7,8 @@ import shapeOne from '../../assets/shape-1.png';
 const Resume = () => {
   return (
     <section className="resume section" id="resume">
-        <h2 className="section__title text-cs">Resume</h2>
+        {/* <h2 className="section__title text-cs">Resume</h2> */}
+        <h2 className="section__title text-cs">Journey</h2>
         <p className="section__subtitle">My <span> Story</span></p>
 
         <div className="resume__container container grid">
@@ -46,7 +47,8 @@ const Resume = () => {
         </div>
 
         <div className="section__bg-wrapper">
-            <span className="bg__title">History</span>
+            {/* <span className="bg__title">History</span> */}
+            <span className="bg__title">Journey</span>
         </div>
         
     </section>

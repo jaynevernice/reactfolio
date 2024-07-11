@@ -4,6 +4,7 @@ import Project3 from './assets/project3.gif';
 import Project4 from './assets/project4.gif';
 import Project5 from './assets/project5.gif';
 import Project6 from './assets/project6.png';
+import Project7 from './assets/project7.gif';
 
 import Testimonial1 from './assets/testimonial1.gif';
 import Testimonial2 from './assets/testimonial2.gif';
@@ -16,34 +17,34 @@ export const links = [
     path: 'home',
   },
   {
-    name: 'Resume',
+    name: 'Journey',
     path: 'resume',
   },
-  {
-    name: 'About',
-    path: 'about',
-  },
+  // {
+  //   name: 'About',
+  //   path: 'about',
+  // },
   {
     name: 'Skills',
     path: 'skills',
   },
   {
-    name: 'Works',
+    name: 'Portfolio',
     path: 'work',
   },
  
-  {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
-  },
+  // {
+  //   name: 'Testimonials',
+  //   path: 'testimonial',
+  // },
+  // {
+  //   name: 'Pricing',
+  //   path: 'pricing',
+  // },
+  // {
+  //   name: 'Blog',
+  //   path: 'blog',
+  // },
   {
     name: 'Contact',
     path: 'contact',
@@ -189,6 +190,15 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    img: Project7,
+    category: 'Website',
+    title: 'PhilRice Training Analytics',
+    description:
+      "A dynamic report generating system for PhilRice's training initiatives.",
+  },
+
+  {
+    id: 2,
     img: Project1,
     category: 'Website',
     title: 'Rotten Popcorn',
@@ -196,7 +206,7 @@ export const projects = [
       'A movie review platform enabling movie discovery, ratings, and user reviews.',
   },
   {
-    id: 2,
+    id: 3,
     img: Project2,
     // category: 'UI UX Design',
     category: 'Design',
@@ -205,7 +215,7 @@ export const projects = [
       'Designed a portfolio website utilizing WordPress.',
   },
   {
-    id: 3,
+    id: 4,
     img: Project3,
     category: 'Website',
     title: 'Oceans of Knowledge',
@@ -213,7 +223,7 @@ export const projects = [
       'A vaccination management system for Oceans of Knowledge High School that streamlines vaccination records',
   },
   {
-    id: 4,
+    id: 5,
     img: Project4,
     category: 'Application',
     title: 'Book Borrowing Tracker',
@@ -221,7 +231,7 @@ export const projects = [
       'Developed a Java-based book borrowing tracker system, facilitating efficient management of book lending and returns.',
   },
   {
-    id: 5,
+    id: 6,
     img: Project5,
     category: 'Website',
     title: 'Travel Management',
@@ -229,7 +239,7 @@ export const projects = [
       'Lakbay Nueva Ecija is a travel management website I developed, encourages local tourism by offering users a platform to discover, and book visits to popular destinations.',
   },
   {
-    id: 6,
+    id: 7,
     img: Project6,
     category: 'Discord Bot',
     title: 'Game of Shots',
@@ -241,11 +251,11 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: 'San Sebastian School',
-    subtitle: 'Preparatory - Grade 10',
-    date: '2007 - 2018',
+    title: 'Central Luzon State University',
+    subtitle: 'College',
+    date: '2020 - Present',
     description:
-      'A journey from preparatory through Grade 10 at San Sebastian School, marked by growth, learning, and memorable experiences.',
+      'Currently a graduating student pursuing a Bachelor of Science in Information Technology at Central Luzon State University, where knowledge meets opportunity. Engaging in collegiate studies, I am fostering skills and crafting a solid foundation for a promising future.',
     category: 'education',
   },
 
@@ -261,16 +271,26 @@ export const cv = [
 
   {
     id: 3,
-    title: 'Central Luzon State University',
-    subtitle: 'College',
-    date: '2020 - Present',
+    title: 'San Sebastian School',
+    subtitle: 'Preparatory - Grade 10',
+    date: '2007 - 2018',
     description:
-      'Currently pursuing higher education at Central Luzon State University, where knowledge meets opportunity. Engaging in collegiate studies, fostering skills, and crafting a foundation for a promising future.',
+      'A journey from preparatory through Grade 10 at San Sebastian School, marked by growth, learning, and memorable experiences.',
     category: 'education',
   },
 
   {
     id: 4,
+    title: 'Front-end Developer (OJT)',
+    subtitle: 'Philippine Rice Research Institute',
+    date: 'February 2024 - May 2024',
+    description:
+      "Designed and developed a dynamic reporting website for PhilRice's training initiatives. The site includes interfaces for guests to view post-survey reports and authenticated staff (encoder, admin, super admin) with role-based access across all PhilRice stations. I collaborated on back-end development, ensuring robust user role and profile management, including functionalities for encoders, admins, and real-time page visit monitoring. Technologies used include Flowbite, Laravel, ApexCharts, AJAX, and SweetAlert, delivering a seamless and interactive web application.",
+    category: 'experience',
+  },
+
+  {
+    id: 5,
     title: 'Data Encoding',
     subtitle: 'CLSU - Office of Admissions',
     date: 'August 2023',

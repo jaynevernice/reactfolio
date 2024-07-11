@@ -104,7 +104,8 @@
 }
 
 .home__banner {
-    background-color: var(--primary-color);
+    /* adds teal background color for profile photo in Home.jsx */
+    /* background-color: var(--primary-color); */
     padding-bottom: 100%;
     border-radius: 50%;
     position: relative;
