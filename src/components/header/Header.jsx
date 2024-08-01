@@ -20,7 +20,8 @@ const Header = () => {
     // state variables
     const [showMenu, setShowMenu] = useState(false); // control visibility of mobile nav
     const [scrollNav, setScrollNav] = useState(false); // control header appearance when scrolling
-    const [theme, setTheme] = useState(getStorageTheme()); // control the theme
+    const [theme, setTheme] = useState('light-theme'); // control the theme
+    // const [theme, setTheme] = useState(getStorageTheme()); original code, but not working
 
     const scrollTop = () => {
         animateScroll.scrollToTop();

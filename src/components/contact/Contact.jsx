@@ -57,6 +57,7 @@ class Contact extends Component {
         <h2 className="section__title text-cs">Contact Me</h2>
         <p className="section__subtitle">Let's <span> Talk About Ideas</span></p>
 
+        {/* <div className="contact__container container grid"> */}
         <div className="contact__container container grid">
             <div className="contact__content">
                 <div className="contact__card">

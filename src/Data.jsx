@@ -92,99 +92,115 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: 'HTML',
-    percentage: 90,
+    name: 'HTML, CSS, JavaScript',
+    percentage: 75,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Proficient in using HTML, CSS, and JavaScript to develop and style responsive web pages. I can effectively build structured layouts, apply CSS for design and add interactivity with JavaScript. Comfortable with standard practices and tools for front-end development.',
   },
 
   {
     id: 2,
-    name: 'CSS',
-    percentage: 85,
+    name: 'ReactJS',
+    percentage: 65,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'This portfolio website is built using ReactJS, showcasing my proficiency in creating dynamic and responsive web applications with a focus on component-based architecture and efficient state management. I leverage advanced React features to deliver a seamless user experience.',
   },
 
   {
     id: 3,
-    name: 'JavaScript',
-    percentage: 80,
+    name: 'Laravel',
+    percentage: 73,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'sss',
   },
 
   {
     id: 4,
     name: 'PHP',
-    percentage: 85,
+    percentage: 60,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Intermediate in PHP for server-side scripting and web development. Capable of developing dynamic web applications, managing form submissions, and interacting with databases. Familiar with common PHP functions and integrating PHP with front-end technologies.',
   },
 
   {
     id: 5,
-    name: 'Laravel',
-    percentage: 85,
+    name: 'Java',
+    percentage: 40,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Possess basic knowledge of Java, utilizing Apache NetBeans as the IDE. Developed practical applications including a book borrowing tracker, a calculator, a phone book, and a cake ordering system. Demonstrates a foundational understanding of its application in real-world projects.',
   },
 
   {
     id: 6,
-    name: 'React',
-    percentage: 90,
+    name: 'Python',
+    percentage: 68,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'I developed a Discord Bot titled "Game of Shots" using Replit, which includes features like automated responses and interactive commands. Additionally, my capstone project involved using OpenCV and YOLOv8 to detect gasping catfishes, an indicator of poor water quality within a pond.',
   },
 
   {
     id: 7,
-    name: 'Java',
-    percentage: 82,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 8,
-    name: 'Python',
-    percentage: 88,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 9,
     name: 'C++',
-    percentage: 80,
+    percentage: 40,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'I have written code using Turbo C and Code::Blocks. I utilized this language to develop simple employee and bank management systems, demonstrating my ability to implement core programming concepts and design practical applications. ',
   },
 
-  {
-    id: 10,
-    name: 'Bootstrap',
-    percentage: 90,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+  // {
+  //   id: 6,
+  //   name: 'React',
+  //   percentage: 71,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
 
-  {
-    id: 11,
-    name: 'Tailwind',
-    percentage: 90,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+  // {
+  //   id: 7,
+  //   name: 'Java',
+  //   percentage: 65,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
 
-  {
-    id: 12,
-    name: 'SQL',
-    percentage: 90,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Python',
+  //   percentage: 68,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
+
+  // {
+  //   id: 9,
+  //   name: 'C++',
+  //   percentage: 67,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
+
+  // {
+  //   id: 10,
+  //   name: 'Bootstrap',
+  //   percentage: 75,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
+
+  // {
+  //   id: 11,
+  //   name: 'Tailwind',
+  //   percentage: 75,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
+
+  // {
+  //   id: 12,
+  //   name: 'SQL',
+  //   percentage: 70,
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
 ];
 
 export const projects = [
@@ -253,9 +269,9 @@ export const cv = [
     id: 1,
     title: 'Central Luzon State University',
     subtitle: 'College',
-    date: '2020 - Present',
+    date: '2020 - 2024',
     description:
-      'Currently a graduating student pursuing a Bachelor of Science in Information Technology at Central Luzon State University, where knowledge meets opportunity. Engaging in collegiate studies, I am fostering skills and crafting a solid foundation for a promising future.',
+      'Graduated Magna Cum Laude with a GPA of 1.37. Specialized in Systems Development, where I gained hands-on experience in a variety of programming languages and technologies such as C++, Java, PHP, HTML, CSS, JavaScript, Laravel, ReactJS, and Python.',
     category: 'education',
   },
 

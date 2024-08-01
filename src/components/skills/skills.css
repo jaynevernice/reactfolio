@@ -1,5 +1,5 @@
 .skills {
-    background-image: var(--third-gradient);
+    /* background-image: var(--third-gradient); */
 }
 
 .skills__container {
@@ -33,6 +33,7 @@
 
 .skills__description {
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .skills__bar, .skills__percentage {

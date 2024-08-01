@@ -15,7 +15,7 @@ const Home = () => {
         <div className="home__container container">
           <p className="home__subtitle text-cs">Hello World, <span>My Name Is</span></p>
           <h1 className="home__title text-cs"> <span>JAYNE</span> VERNICE</h1>
-          <p className="home__job"><span className="text-cs">I Am A</span> <b> Systems Developer</b> </p>
+          <p className="home__job"><span className="text-cs">I Am A</span> <b> Front-end Developer</b> </p>
 
           <div className="home__img-wrapper">
             <div className="home__banner">
@@ -63,7 +63,7 @@ const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Systems Developer</span>
+        <span className="bg__title">Front-end Developer</span>
       </div>
 
     </section>

@@ -46,6 +46,10 @@
 
     .home__text {
         margin-inline: auto;
+        /* Override home text size, portfolio description */
+        max-width: 100%;
+        width: 100%;
+        padding: 6% 3% 0 3%;
     }
 
     .home__img-wrapper {
@@ -53,7 +57,7 @@
         transform: initial;
         right: initial;
         margin-inline: auto;
-        margin-top: 140px;
+        /* margin-top: 140px; */
     }
 
     .home__socials, .home__btns {
@@ -175,7 +179,7 @@
 
     .home__img-wrapper {
         top: 30px;
-        margin-top: 120px;
+        /* margin-top: 120px; */
         max-width: 400px;
     }
 
@@ -222,6 +226,19 @@
 
     .portfolio__list-item::before {
         bottom: -8px;
+    }
+
+    /* Responsiveness of Contact form */
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form-group {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form-area {
+        width: 100%;
     }
 
 

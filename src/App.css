@@ -4,7 +4,8 @@
 /* CSS Variables */
 :root {
     /* Colors */
-    --primary-color: hsl(165, 60%, 40%);
+    /* --primary-color: hsl(165, 60%, 40%); teal green */
+    --primary-color: hsl(211, 75%, 57%);
     --title-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 92%);
     --bg-color: hsl(216, 18%, 16%);
@@ -205,6 +206,8 @@ img {
 
 .section {
     padding-bottom: 220px;
+    /* Added a padding-top for sidebar navigation */
+    padding-top: 20px; 
     position: relative;
 }
 
