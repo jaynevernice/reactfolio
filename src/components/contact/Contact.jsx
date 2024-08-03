@@ -58,7 +58,7 @@ class Contact extends Component {
         <p className="section__subtitle">Let's <span> Talk About Ideas</span></p>
 
         {/* <div className="contact__container container grid"> */}
-        <div className="contact__container container grid">
+        <div className="contact__container container ">
             <div className="contact__content">
                 <div className="contact__card">
                     <span className="contact__card-icon"><FaRegMap /></span>
@@ -87,7 +87,7 @@ class Contact extends Component {
 
             {/* form elements are controlled components meaning they are connected to the components state and values are updated
             through handleChange method */}
-            <form className="contact__form" onSubmit={this.handleSubmit}>
+            {/* <form className="contact__form" onSubmit={this.handleSubmit}>
                 <div className="contact__form-group grid">
                     <div className="contact__form-div">
                         <label className="contact__form-tag text-cs">Your Full Name <b>*</b></label>
@@ -115,7 +115,7 @@ class Contact extends Component {
                     <p>* Accept the terms and conditions</p>
                     <button type='submit' className='btn text-cs'>Send Message</button>
                 </div>
-            </form>
+            </form> */}
         </div>
 
         <div className="section__deco deco__left">

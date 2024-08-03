@@ -3,15 +3,34 @@
 }
 
 .contact__container {
-    grid-template-columns: 5fr 7fr;
+    /* grid-template-columns: 5fr 7fr;
     position: relative;
-    z-index: 10;
+    z-index: 10; */
+
+    /* Instead of grid, the contact info is displayed in the center using flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
 }
 
 .contact__card {
     padding-left: 130px;
     margin-bottom: 40px;
     position: relative;
+
+    /* New */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1;
+}
+
+.contact__card:hover {
+    animation: bounce 0.6s ease; /* Apply bounce animation on hover */
 }
 
 .contact__card-icon, .contact__form-input {
@@ -30,6 +49,14 @@
     font-size: var(--larger-font-size);
     display: grid;
     place-items: center;
+
+    /* New */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* New */
+.contact__card:hover .contact__card-icon {
+    background-color: var(--primary-color); /* Change background color on hover */
 }
 
 .contact__card-icon::after {

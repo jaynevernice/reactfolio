@@ -71,6 +71,11 @@
     .footer__copyright:nth-child(2) {
         justify-self: start;
     }
+
+    .skills__description {
+        height: 200px;
+        overflow: scroll;
+    }
 }
 
 @media screen and (max-width: 992px) {
