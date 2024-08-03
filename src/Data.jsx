@@ -222,6 +222,7 @@ export const projects = [
     title: 'Game of Shots',
     description:
       'A discord bot that combines all adult party games into a single application for free developed in Replit.com',
+    githubURL: "https://github.com/jaynevernice/game-of-shots-preview.git",
   },
   {
     id: 9,
