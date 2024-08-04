@@ -1,10 +1,11 @@
 // Projects
 // import Project1 from './assets/project1.gif';
 import pta from './assets/pta.gif';
+import onlyfins from './assets/onlyfins.gif';
 import rottenpopcorn from './assets/rottenpopcorn.gif';
-// import wportfolio from './assets/wportfolio.gif';
 import oceansok from './assets/oceansok.gif';
 import bookbt from './assets/bookbt.gif';
+import wportfolio from './assets/wportfolio.gif';
 import lakbayne from './assets/lakbayne.gif';
 import gos from './assets/gos.gif';
 import devtools from './assets/devtools.gif';
@@ -158,62 +159,68 @@ export const projects = [
     description:
       "A dynamic report generating system for PhilRice's training initiatives.",
     githubURL: "https://github.com/jaynevernice/philrice-pta-public.git" ,  
+    technologies: ["Laravel", "Tailwind", "ApexCharts", "Sweet Alert 2"],
   },
-
-  // {
-  //   id: 2,
-  //   img: Project5,
-  //   category: 'Application',
-  //   title: 'ONLYFINS',
-  //   description:
-  //     "A capstone project",
-  //   githubURL: "https://github.com/jaynevernice/philrice-pta-public.git" ,  
-  // },
 
   {
     id: 2,
+    img: onlyfins,
+    category: 'Application',
+    title: 'ONLYFINS',
+    description:
+      "An advanced aquaculture system that uses Android-based automation and computer vision to optimize aeration in aquatic environments.",
+    githubURL: "https://github.com/jaynevernice/onlyfins-public.git" ,  
+    technologies: ["C++", "Python", "YOLOv8"],
+  },
+
+  {
+    id: 3,
     img: rottenpopcorn,
     category: 'Website',
     title: 'Rotten Popcorn',
     description:
       'A movie review platform enabling movie discovery, ratings, and user reviews.',
     githubURL: "https://github.com/jaynevernice/rottenpopcorn-laravel-public.git",  
+    technologies: ["Laravel", "Tailwind", "Sweet Alert 2"],
   },
-  // {
-  //   id: 4,
-  //   img: wportfolio,
-  //   // category: 'UI UX Design',
-  //   category: 'Design',
-  //   title: 'WordPress Portfolio',
-  //   description:
-  //     'Designed a portfolio website utilizing WordPress.',
-  // },
   {
-    id: 3,
+    id: 4,
     img: oceansok,
     category: 'Website',
     title: 'Oceans of Knowledge',
     description:
       'A vaccination management system for Oceans of Knowledge High School that streamlines vaccination records',
     githubURL: "https://github.com/jaynevernice/oceans-of-knowledge-public.git",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
-    id: 4,
+    id: 5,
     img: bookbt,
     category: 'Application',
     title: 'Book Borrowing Tracker',
     description:
       'Developed a Java-based book borrowing tracker system, facilitating efficient management of book lending and returns.',
     githubURL: "https://github.com/jaynevernice/book-borrowing-tracker-preview.git",
+    technologies: ["Java"],
   },
   {
-    id: 5,
+    id: 6,
+    img: wportfolio,
+    category: 'Design',
+    title: 'WordPress Portfolio',
+    description:
+      'Designed a portfolio website utilizing WordPress.',
+    technologies: ["WordPress"],
+  },
+  {
+    id: 7,
     img: lakbayne,
     category: 'Website',
     title: 'Lakbay Nueva Ecija',
     description:
       'A travel management website I developed, encourages local tourism by offering users a platform to discover, and book visits to popular destinations.',
     githubURL: "https://github.com/jaynevernice/lakbay-nueva-ecija-preview.git",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
     id: 8,
@@ -222,7 +229,8 @@ export const projects = [
     title: 'Game of Shots',
     description:
       'A discord bot that combines all adult party games into a single application for free developed in Replit.com',
-    githubURL: "https://github.com/jaynevernice/game-of-shots-preview.git",
+    // githubURL: "https://github.com/jaynevernice/game-of-shots-preview.git",
+    technologies: ["Python", "Replit"],
   },
   {
     id: 9,
@@ -232,6 +240,7 @@ export const projects = [
     description:
       'Thid is your go-to hub for web development tools. Discover, compare, and master the latest resources to enhance your coding and design workflow.',
     githubURL: "https://github.com/jaynevernice/devtools-public.git",
+    technologies: ["React"],
   },
 ];
 
