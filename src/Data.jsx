@@ -277,7 +277,7 @@ export const cv = [
 
   {
     id: 4,
-    title: 'Front-end Developer (OJT)',
+    title: 'Web Developer (OJT)',
     subtitle: 'Philippine Rice Research Institute',
     date: 'February 2024 - May 2024',
     description:

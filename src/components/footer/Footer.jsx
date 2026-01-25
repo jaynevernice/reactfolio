@@ -8,8 +8,9 @@ const Footer = () => {
         <div className="footer__container container grid">
             <div className="footer__socials">
               <a href="https://github.com/jaynevernice" className="home__social-link"><FaGithub/></a>
+              <a href="https://www.linkedin.com/in/jaynevernice" className="home__social-link"><FaLinkedin/></a>
               <a href="https://web.facebook.com/jaynevernice" className="home__social-link"><FaFacebook/></a>
-              <a href="https://www.twitch.tv/cosmicrevelry/" className="home__social-link"><FaTwitch/></a>
+              {/* <a href="https://www.twitch.tv/cosmicrevelry/" className="home__social-link"><FaTwitch/></a> */}
               {/* <a href="https://twitter.com/VICESANDVIRTVES" className="home__social-link"><FaTwitter/></a>  */}
               {/* <a href="" className="home__social-link"><FaInstagram/></a>  */}
               {/* <a href="https://youtube.com/@vicesxvirtues" className="home__social-link"><FaYoutube/></a> */}

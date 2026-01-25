@@ -12,20 +12,20 @@ import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
-import bgm from './assets/bgm.mp3'
+// import bgm from './assets/bgm.mp3'
 
 function App() {
   return (
     <main className="main">
 
-      <audio src={bgm} autoPlay loop />
+      {/* <audio src={bgm} autoPlay loop /> */}
 
       <Header />
       <Home />
+      <Portfolio />
       <Resume />
       {/* <About /> */}
       <Skills />
-      <Portfolio />
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
       {/* <Blog /> */}

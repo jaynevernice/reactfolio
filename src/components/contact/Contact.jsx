@@ -68,7 +68,7 @@ class Contact extends Component {
 
                 <div className="contact__card">
                     <span className="contact__card-icon"><FaRegUser /></span>
-                    <h3 className="contact__card-title">Freelance</h3>
+                    <h3 className="contact__card-title">Status</h3>
                     <p className="contact__card-data">Available Right Now</p>
                 </div>
 
