@@ -10,7 +10,7 @@ const Resume = () => {
         {/* <h2 className="section__title text-cs">Resume</h2> */}
         <h2 className="section__title text-cs">Journey</h2>
         <p className="section__subtitle">My <span> Story</span></p>
-
+    
         <div className="resume__container container grid">
             <div className="resume__group">
                 <h3 className="resume__heading">Education</h3>

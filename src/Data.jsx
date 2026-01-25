@@ -9,6 +9,7 @@ import wportfolio from './assets/wportfolio.gif';
 import lakbayne from './assets/lakbayne.gif';
 import gos from './assets/gos.gif';
 import devtools from './assets/devtools.gif';
+import tdee from './assets/tdee.png';
 
 // Testimonials
 // import Testimonial1 from './assets/testimonial1.gif';
@@ -34,7 +35,7 @@ export const links = [
     name: 'Portfolio',
     path: 'work',
   },
- 
+
   // {
   //   name: 'Testimonials',
   //   path: 'testimonial',
@@ -151,40 +152,52 @@ export const skills = [
 ];
 
 export const projects = [
+
   {
     id: 1,
+    img: tdee,
+    category: 'Website',
+    title: 'TDEE Calculator',
+    description:
+      "Calculate your daily calories in seconds to reach your health goals",
+    githubURL: "https://tdee-calculator-59q8.onrender.com",
+    technologies: ["MERN", "Tailwind", "DaisyUI"],
+  },
+
+  {
+    id: 2,
     img: pta,
     category: 'Website',
     title: 'PhilRice Training Analytics',
     description:
       "A dynamic report generating system for PhilRice's training initiatives.",
-    githubURL: "https://github.com/jaynevernice/philrice-pta-public.git" ,  
+    githubURL: "https://github.com/jaynevernice/philrice-pta-public.git",
     technologies: ["Laravel", "Tailwind", "ApexCharts", "Sweet Alert 2"],
   },
 
   {
-    id: 2,
+    id: 3,
     img: onlyfins,
     category: 'Application',
     title: 'ONLYFINS',
     description:
       "An advanced aquaculture system that uses Android-based automation and computer vision to optimize aeration in aquatic environments.",
-    githubURL: "https://github.com/jaynevernice/onlyfins-public.git" ,  
+    githubURL: "https://github.com/jaynevernice/onlyfins-public.git",
     technologies: ["C++", "Python", "YOLOv8"],
   },
 
   {
-    id: 3,
+    id: 4,
     img: rottenpopcorn,
     category: 'Website',
     title: 'Rotten Popcorn',
     description:
       'A movie review platform enabling movie discovery, ratings, and user reviews.',
-    githubURL: "https://github.com/jaynevernice/rottenpopcorn-laravel-public.git",  
+    githubURL: "https://github.com/jaynevernice/rottenpopcorn-laravel-public.git",
     technologies: ["Laravel", "Tailwind", "Sweet Alert 2"],
   },
   {
-    id: 4,
+    id: 5,
     img: oceansok,
     category: 'Website',
     title: 'Oceans of Knowledge',
@@ -194,7 +207,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
-    id: 5,
+    id: 6,
     img: bookbt,
     category: 'Application',
     title: 'Book Borrowing Tracker',
@@ -204,7 +217,7 @@ export const projects = [
     technologies: ["Java"],
   },
   {
-    id: 6,
+    id: 7,
     img: wportfolio,
     category: 'Design',
     title: 'WordPress Portfolio',
@@ -213,7 +226,7 @@ export const projects = [
     technologies: ["WordPress"],
   },
   {
-    id: 7,
+    id: 8,
     img: lakbayne,
     category: 'Website',
     title: 'Lakbay Nueva Ecija',
@@ -223,7 +236,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
-    id: 8,
+    id: 9,
     img: gos,
     category: 'Application',
     title: 'Game of Shots',
@@ -233,7 +246,7 @@ export const projects = [
     technologies: ["Python", "Replit"],
   },
   {
-    id: 9,
+    id: 10,
     img: devtools,
     category: 'Website',
     title: 'DevTools',
@@ -277,6 +290,16 @@ export const cv = [
 
   {
     id: 4,
+    title: 'Customer Experience Associate I',
+    subtitle: 'Conduent',
+    date: 'December 2024 - January 2026',
+    description:
+      "Provided empathetic customer support through inbound calls, ensuring timely issue resolution, clear communication of procedures in user-friendly terms, and accurate CRM data management in compliance with privacy standards. Gained valuable insights into user behavior and system pain points, strengthening the ability to design more user-centered and efficient systems, while hands-on experience with CRM tools enhanced understanding of back-end functionality, data structures, and user experience design.",
+    category: 'experience',
+  },
+
+  {
+    id: 5,
     title: 'Web Developer (OJT)',
     subtitle: 'Philippine Rice Research Institute',
     date: 'February 2024 - May 2024',
@@ -286,7 +309,7 @@ export const cv = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'Data Encoding',
     subtitle: 'CLSU - Office of Admissions',
     date: 'August 2023',

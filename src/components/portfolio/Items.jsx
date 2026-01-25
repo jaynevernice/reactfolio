@@ -11,8 +11,8 @@ const Items = ({ projectItems }) => {
     };
 
     const colorMap = {
-        HTML: '#E34F26', // Slightly more modern shade of red-orange
-        CSS: '#2965F1', // A richer blue for CSS
+        HTML5: '#E34F26', // Slightly more modern shade of red-orange
+        CSS3: '#2965F1', // A richer blue for CSS
         JavaScript: '#F7E03C', // A softer yellow
         React: '#61DAFB', // Retaining the original React color (modern and clean)
         PHP: '#6D6D6D', // A more neutral and sophisticated gray for PHP
@@ -21,9 +21,10 @@ const Items = ({ projectItems }) => {
         Python: '#4B8BBE', // A more balanced blue for Python
         'C++': '#004B87', // A deeper blue for C++
         Tailwind: '#3B82F6', // A fresh and bright blue for Tailwind CSS
-        Bootstrap: '#6F42C1' // A vibrant shade of purple for Bootstrap
+        Bootstrap: '#6F42C1', // A vibrant shade of purple for Bootstrap
+        MERN: '#3FA037',
     };
-    
+
 
     const handleMouseEnter = (id) => {
         setFlippedCard(id);
@@ -68,7 +69,7 @@ const Items = ({ projectItems }) => {
                                         <span
                                             key={index}
                                             className="tag"
-                                            style={{ backgroundColor: colorMap[tech] || '#ccc' }}
+                                            style={{ backgroundColor: colorMap[tech] || '#F0F0DB' }}
                                         >
                                             {tech}
                                         </span>

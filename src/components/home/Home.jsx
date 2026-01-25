@@ -38,7 +38,7 @@ const Home = () => {
 
           </div>
 
-          <p className="home__text">A 24 year old developer based in the Philippines. My mission is to blend aesthetics and functionality seamlessy in every project. Explore my portfolio to see how I can help your business elevate their online presence. </p>
+          <p className="home__text">A 24 year old developer based in the Philippines. I blend aesthetics and functionality seamlessy in every project. Explore my portfolio to see how I can help your business elevate its online presence. </p>
 
           <div className="home__socials">
             <a href="https://github.com/jaynevernice" className="home__social-link"><FaGithub /></a>
